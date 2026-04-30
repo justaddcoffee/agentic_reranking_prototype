@@ -1,0 +1,39 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.coverage
+htmlcov/
+
+# Raw cohort data — large, regenerable from source-specific download scripts
+data/raw/pps/*/all_phenopackets.zip
+data/raw/pps/*/extracted/
+data/raw/pps/*/phenopackets.csv
+data/raw/pps/*/pubdates.json
+data/raw/pps/*/pmids.txt
+data/raw/gel/
+data/raw/ehr/
+
+# Reference snapshots — regenerable via scripts/fetch_*.sh
+data/snapshots/giab/*.vcf
+data/snapshots/giab/*.vcf.gz
+data/snapshots/giab/*.vcf.gz.tbi
+data/snapshots/exomiser/*/*.zip
+data/snapshots/hpo/*/*.obo
+
+# Per-run derived artifacts — fully regenerable
+data/derived/runs/
+
+# Local IDE
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Per-user Claude Code settings
+.claude/
