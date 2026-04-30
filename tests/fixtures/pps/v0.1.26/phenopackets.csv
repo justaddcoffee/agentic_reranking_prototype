@@ -1,0 +1,5 @@
+file,cohort,disease_id,disease_label,pmids,non_pmid_refs
+11q_terminal_deletion/PMID_15266616_35.json,11q_terminal_deletion,OMIM:147791,Jacobsen syndrome,15266616,
+SPINK5/PMID_24506793_Case_1.json,SPINK5,OMIM:256500,Netherton syndrome,24506793,
+GTF2H4/PMID_40924475_XP140BR.json,GTF2H4,OMIM:621435,"Xeroderma pigmentosum, complementation group J",40924475,
+RRP12/PMID_41059649_Case_C_II_2.json,RRP12,OMIM:621452,"Basal ganglia calcification, idiopathic, 11, autosomal recessive",41059649,
